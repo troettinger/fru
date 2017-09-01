@@ -1,11 +1,4 @@
----
-title: Replace a physical disk in Azure Stack
-description: Outlines the process for how to replace a physical disk in Azure Stack.
-
-ms.date: 08/31/2017
-
----
-# Replace a physical disk in Azure Stack
+﻿# Replace a physical disk in Azure Stack
 
 *Applies to: Azure Stack integrated systems and Azure Stack Development Kit*
 
