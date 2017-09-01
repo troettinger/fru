@@ -31,8 +31,7 @@ After you replace the disk, Azure Stack automatically discovers the new disk and
 1. Open a Windows PowerShell session and connect to the privileged endpoint.
     ````PowerShell
         $cred = Get-Credential
-        Enter-PSSession -ComputerName <IP Address of ERCS>`
-          -ConfigurationName PrivilegedEndpoint -Credential $cred
+        Enter-PSSession -ComputerName <IP Address of ERCS> -ConfigurationName PrivilegedEndpoint -Credential $cred
     ```` 
   
 2. Run the following command to view virtual disk health:
